@@ -8,7 +8,7 @@ interface AboutSectionProps {
 
 const AboutSection: FunctionComponent<AboutSectionProps> = (): ReactElement => {
     return (
-        <section className="p-5 py-16 relative">
+        <section className="p-5 py-16 relative px-[8%]">
             <span className="absolute w-full h-full top-0 left-0 opacity-25 z-[5]">
                 <Image src={images.about_bg} className="object-cover w-full h-full" alt="Space" />
             </span>

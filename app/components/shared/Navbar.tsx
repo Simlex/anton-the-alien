@@ -9,7 +9,7 @@ interface NavbarProps {
 
 const Navbar: FunctionComponent<NavbarProps> = (): ReactElement => {
     return (
-        <nav className="fixed top-0 w-full p-4 z-30">
+        <nav className="fixed top-0 w-full p-4 z-30 px-[8%]">
             <div className="z-30 relative p-5 py-4 rounded-3xl flex flow-row justify-between" style={{ background: "rgba(255, 255, 255, 0.1)", backdropFilter: "blur(75px)" }}>
                 <div className="flex flex-row items-center">
                     <span className="w-10 h-10 mr-2">
