@@ -39,7 +39,7 @@ const UtilitiesSection: FunctionComponent<UtilitiesSectionProps> = (): ReactElem
             <span className="absolute w-full h-full top-0 left-0 opacity-25 z-[5]">
                 <Image src={images.utilities_bg} className="object-cover w-full h-full" alt="Space" />
             </span>
-            <h2 className="text-4xl font-bold mb-8 text-center">UTILITIES</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center font-Fredoka">UTILITIES</h2>
             <div className="flex flex-col z-20 lg:grid lg:grid-cols-2 lg:gap-4">
                 {
                     utilities.map((utility, index) => (

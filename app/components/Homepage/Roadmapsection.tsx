@@ -43,7 +43,7 @@ const RoadmapSection: FunctionComponent<RoadmapSectionProps> = (): ReactElement 
     ]
 
     return (
-        <section className="px-5 py-20 relative border-none">
+        <section className="px-5 py-20 lg:px-[8%] relative border-none">
             <span className="absolute w-full h-full top-0 left-0 opacity-25 z-[5]">
                 <Image src={images.roadmap_bg} className="object-cover w-full h-full" alt="Space" />
             </span>
@@ -52,7 +52,7 @@ const RoadmapSection: FunctionComponent<RoadmapSectionProps> = (): ReactElement 
                 <svg className="absolute top-0" width="100%" height="90" viewBox="0 0 430 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M54.7738 0H374.634C374.634 0 368.645 28.1393 372.857 43.5535C382.303 78.1159 430 44.5659 430 44.5659C430 44.5659 382.303 11.0159 372.857 45.5783C368.645 60.9925 374.634 89.1317 374.634 89.1317H54.7738C54.7738 89.1317 60.7972 60.9652 56.5506 45.5783C47.1273 11.4346 0 44.5659 0 44.5659C0 44.5659 47.1273 77.6972 56.5506 43.5535C60.7972 28.1665 54.7738 0 54.7738 0Z" fill="white" fill-opacity="0.1" />
                 </svg>
-                <h2 className="text-4xl font-bold mb-4 text-center">ROADMAP</h2>
+                <h2 className="text-4xl font-bold mb-4 text-center font-Fredoka">ROADMAP</h2>
             </div>
 
             <div className="mt-8">

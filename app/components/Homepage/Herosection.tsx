@@ -14,7 +14,7 @@ const Herosection: FunctionComponent<HerosectionProps> = (): ReactElement => {
                     <span className="absolute w-full z-10 h-64 bottom-0 bg-gradient-to-b from-transparent to-primary-dark"></span>
                     <Image src={images.hero_bg} className="w-full h-full object-cover object-right-top opacity-40" alt="Hero" />
                 </div>
-                <h1 className="z-20 relative text-6xl font-extrabold mb-2 font-Fredoka">
+                <h1 className="z-20 relative text-6xl font-extrabold mb-2 font-Fredoka before:content['ANTON THE ALIEN'] before:text-yellow-300 before:translate-x-7">
                     ANTON THE ALIEN
                 </h1>
                 <span className="z-20 relative opacity-60 italic">

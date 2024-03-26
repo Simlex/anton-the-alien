@@ -12,7 +12,7 @@ const AboutSection: FunctionComponent<AboutSectionProps> = (): ReactElement => {
             <span className="absolute w-full h-full top-0 left-0 opacity-25 z-[5]">
                 <Image src={images.about_bg} className="object-cover w-full h-full" alt="Space" />
             </span>
-            <h2 className="text-4xl font-bold mb-4">ABOUT TOKEN</h2>
+            <h2 className="text-4xl font-bold mb-4 font-Fredoka">ABOUT TOKEN</h2>
             <p className="text-sm font-normal leading-8">
                 Introducing <b>$ANTON</b>, the token that sets <b>ANTON THE ALIEN</b> apart
                 from the crowd, symbolizing innovation and uniqueness
