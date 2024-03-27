@@ -66,7 +66,7 @@ const Navbar: FunctionComponent<NavbarProps> = (): ReactElement => {
                     </li>
                 </ul>
 
-                <span className="w-18 h-18 grid place-items-center p-1 rounded-lg bg-white bg-opacity-10 cursor-pointer hover:bg-white hover:bg-opacity-25">
+                <span className="w-18 h-18 hidden place-items-center p-1 rounded-lg bg-white bg-opacity-10 cursor-pointer hover:bg-white hover:bg-opacity-25">
                     <HamburgerIcon />
                 </span>
 

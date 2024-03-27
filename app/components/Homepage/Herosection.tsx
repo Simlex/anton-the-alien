@@ -58,7 +58,7 @@ const Herosection: FunctionComponent<HerosectionProps> = (): ReactElement => {
             <div className="lg:w-[50%]">
                 <div className="w-[250px] h-[250px] mx-auto z-[15] relative rounded-full overflow-hidden" style={{ boxShadow: "0px 0px 150px rgba(21, 21, 21, 0.6)" }}>
                     {/* <Image src={images.ton} alt="TON logo" /> */}
-                    <Image src={images.ton} className="bg-white border-b-4" alt="TON logo" />
+                    <Image src={images.logo} className="bg-white w-full h-full object-cover border-b-4" alt="TON logo" />
                 </div>
             </div>
         </section>

@@ -21,6 +21,12 @@ const AboutSection: FunctionComponent<AboutSectionProps> = (): ReactElement => {
                 underlining it’s scarcity and driving market demand, distinguishing it
                 from conventional meme coins.
             </p>
+            <p className="text-sm font-normal leading-8">
+                Our strategic design positions <b>ANTON THE ALIEN</b> as the front-runner in the 
+                memecoin space for 2024, combining scarcity, farming opportunities, NFT integration, 
+                and impactful partnerships. Join us on the journey where professionalism meets innovation, 
+                and <b>$ANTON</b> emerges as the hottest memecoin in the ever-evolving crypto landscape.
+            </p>
         </section>
     );
 }
