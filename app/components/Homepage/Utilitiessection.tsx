@@ -37,7 +37,7 @@ const UtilitiesSection: FunctionComponent<UtilitiesSectionProps> = (): ReactElem
     ]
 
     return (
-        <section className="p-5 py-20 relative px-[8%] before:w-full before:h-10 before:bg-off-black before:absolute before:-top-4 before:left-0 before:z-10">
+        <section className="p-5 py-20 relative px-[8%] before:w-full before:h-10 before:bg-off-black before:absolute before:-top-4 before:left-0 before:z-10" id="utilities">
             <span className="absolute w-full h-full top-0 left-0 opacity-25 z-[5]">
                 <Image src={images.utilities_bg} className="object-cover w-full h-full" alt="Space" />
             </span>

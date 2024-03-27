@@ -3,6 +3,7 @@ import Herosection from "./components/Homepage/Herosection";
 import AboutSection from "./components/Homepage/Aboutsection";
 import UtilitiesSection from "./components/Homepage/Utilitiessection";
 import RoadmapSection from "./components/Homepage/Roadmapsection";
+import PresaleSection from "./components/Homepage/Presalesection";
 
 interface HomepageProps {
     
@@ -15,6 +16,7 @@ const Homepage: FunctionComponent<HomepageProps> = ():ReactElement => {
             <AboutSection />
             <UtilitiesSection />
             <RoadmapSection />
+            <PresaleSection />
         </main>
      );
 }
