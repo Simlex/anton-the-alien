@@ -1,6 +1,8 @@
+"use client"
 import images from "@/public/images";
 import Image from "next/image";
 import { FunctionComponent, ReactElement } from "react";
+import { motion } from "framer-motion";
 
 interface RoadmapSectionProps {
 
@@ -32,7 +34,7 @@ const RoadmapSection: FunctionComponent<RoadmapSectionProps> = (): ReactElement 
             ]
         },
         {
-            title: "Phase 2",
+            title: "Phase 3",
             desc: [
                 "ANTON DEX Development",
                 "ANTON Awareness Campaigns",
@@ -55,10 +57,10 @@ const RoadmapSection: FunctionComponent<RoadmapSectionProps> = (): ReactElement 
                 <h2 className="text-4xl font-bold mb-4 text-center font-Fredoka">ROADMAP</h2>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 lg:flex lg:flex-row lg:justify-between">
                 {
                     roadmap.map((phase, index) => (
-                        <div key={index} className="flex flex-col mb-6 z-20 p-5 rounded-2xl relative overflow-hidden group" style={{ background: "rgba(255, 255, 255, 0.1)" }}>
+                        <div key={index} className="flex flex-col mb-6 z-20 p-5 rounded-2xl relative overflow-hidden group lg:max-w-[30%] lg:h-fit" style={{ background: "rgba(255, 255, 255, 0.1)" }}>
                             <span className="before:opacity-70 group-hover:before:opacity-100 before:absolute before:w-[80px] before:h-20 before:bg-white before:blur-3xl before:rounded-full before:bg-gradient-to-r before-from-primary before-to-secondary-sub before:content-['']"></span>
                             <h3 className={`text-base font-semibold mb-2 text-secondary-sub`}>{phase.title}</h3>
                             <ul className="text-sm font-light leading-8">

@@ -1,6 +1,8 @@
+"use client"
 import images from "@/public/images";
 import Image from "next/image";
 import React, { FunctionComponent, ReactElement } from "react";
+import { motion } from "framer-motion";
 
 interface UtilitiesSectionProps {
 
@@ -40,17 +42,21 @@ const UtilitiesSection: FunctionComponent<UtilitiesSectionProps> = (): ReactElem
                 <Image src={images.utilities_bg} className="object-cover w-full h-full" alt="Space" />
             </span>
             <h2 className="text-4xl font-bold mb-8 text-center font-Fredoka">UTILITIES</h2>
-            <div className="flex flex-col z-20 lg:grid lg:grid-cols-2 lg:gap-4">
+            <div className="flex flex-col z-20 sm:grid sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
                 {
                     utilities.map((utility, index) => (
-                        <div
+                        <motion.div
                             key={index}
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.4, ease: 'linear' }}
                             className="flex flex-col mb-6 z-20 p-5 rounded-2xl relative overflow-hidden group"
                             style={{ background: "rgba(255, 255, 255, 0.1)" }}>
                             <span className="before:opacity-70 group-hover:before:opacity-100 before:absolute before:w-[80px] before:h-20 before:bg-white before:blur-3xl before:rounded-full before:bg-gradient-to-r before-from-primary before-to-secondary-sub before:content-['']"></span>
                             <h3 className="text-base font-semibold mb-2 text-secondary-sub">{utility.title}</h3>
                             <p className="text-sm font-light leading-8">{utility.description}</p>
-                        </div>
+                        </motion.div>
                     ))
                 }
             </div>
