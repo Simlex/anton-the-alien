@@ -3,6 +3,7 @@ import images from "@/public/images";
 import Image from "next/image";
 import { FunctionComponent, ReactElement } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 interface HerosectionProps {
 
@@ -42,14 +43,17 @@ const Herosection: FunctionComponent<HerosectionProps> = (): ReactElement => {
                     community members to  actively participate in
                     governance, fostering inclusivity and collaboration.
                 </motion.p>
-                <motion.button
+                {/* <motion.button
                     initial={{ opacity: 0, y: 15 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, ease: 'linear' }}
                     className="z-20 relative p-3 px-6 bg-primary rounded-2xl border-b-4 border-secondary hover:bg-primary-dark">
                     Download Whitepaper
-                </motion.button>
+                </motion.button> */}
+                <Link href='/anton_whitepaper.pdf' className="z-20 relative p-3 px-6 bg-primary rounded-2xl border-b-4 border-secondary hover:bg-primary-dark">
+                    Download Whitepaper
+                </Link>
             </div>
             <div className="lg:w-[50%]">
                 <div className="w-[250px] h-[250px] mx-auto z-[15] relative rounded-full overflow-hidden" style={{ boxShadow: "0px 0px 150px rgba(21, 21, 21, 0.6)" }}>
