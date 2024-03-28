@@ -11,7 +11,7 @@ interface HerosectionProps {
 
 const Herosection: FunctionComponent<HerosectionProps> = (): ReactElement => {
     return (
-        <section className="p-5 pt-52 pb-20 px-[8%] relative w-screen min-h-[80vh] flex flex-col gap-16 border-b-8 border-secondary-sub lg:flex-row" id="hero">
+        <section className="p-5 pt-40 pb-20 px-[8%] relative w-screen min-h-[80vh] flex flex-col gap-16 border-b-8 border-secondary-sub lg:flex-row" id="hero">
             <div className="flex flex-col items-start lg:w-[50%]">
                 <div className="absolute w-full h-full top-0 left-0 z-10 before:absolute before:w-full before:h-full before:top-0 before:left-0 before:z-20 before:bg-gradient-to-t from-transparent to-black">
                     <span className="absolute w-full z-10 h-64 bottom-0 bg-gradient-to-b from-transparent to-primary-dark"></span>
@@ -23,7 +23,7 @@ const Herosection: FunctionComponent<HerosectionProps> = (): ReactElement => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.2, ease: "easeIn" }}
                     className="z-20 relative text-6xl font-extrabold mb-2 font-Fredoka before:content['ANTON THE ALIEN'] before:text-yellow-300 before:translate-x-7">
-                    ANTON THE ALIEN
+                    ANTON THE <br /> ALIEN
                 </motion.h1>
                 <motion.span
                     initial={{ opacity: 0 }}

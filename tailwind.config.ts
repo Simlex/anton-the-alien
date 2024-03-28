@@ -30,8 +30,8 @@ const config: Config = {
         "dark-grey-2-30": "#B3B3B3",
       },
       fontFamily: {
-        Fredoka: ['"Fredoka"', "sans-serif"],
-        sans: ["Inter", "sans-serif"],
+        Brockers: ['"Brockers"', "sans-serif"],
+        sans: ["Josefin_Sans", "sans-serif"],
       },
     },
   },

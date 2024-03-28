@@ -5,6 +5,7 @@ import about_bg from "./images/about_bg.jpg";
 import utilities_bg from "./images/utilities_bg.jpg";
 import roadmap_bg from "./images/roadmap_bg.jpg";
 import presale_bg from "./images/presale_bg.jpg";
+import nft from "./images/nft.jpg";
 
 export default {
   hero_bg,
@@ -13,5 +14,6 @@ export default {
   about_bg,
   utilities_bg,
   roadmap_bg,
-  presale_bg
+  presale_bg,
+  nft
 };
