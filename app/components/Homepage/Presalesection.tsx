@@ -71,7 +71,7 @@ const PresaleSection: FunctionComponent<
           type="button"
           href="https://tonraffles.app/jetton/fairlaunch/ANTON"
           target="_blank"
-          className="font-medium text-2xl whitespace-nowrap lg:text-4xl p-6 rounded-2xl border-b-4 border-secondary w-full md:w-1/2 lg:w-1/3 text-center font-Fredoka cursor-pointer relative z-20 bg-primary hover:bg-primary-dark"
+          className="z-20 relative mt-8 block w-fit mx-auto p-3 px-6 bg-primary rounded-2xl border-b-4 border-secondary hover:bg-primary-dark"
           //   style={{ background: "rgba(255, 255, 255, 0.1)" }}
         >
           Get Presale
