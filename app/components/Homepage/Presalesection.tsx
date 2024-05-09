@@ -59,22 +59,22 @@ const PresaleSection: FunctionComponent<
       </span>
 
       <h2 className="text-4xl font-bold mb-12 text-center font-Fredoka z-20 relative">
-        PRESALE
+        NEW UPDATE
       </h2>
 
       <p className="text-sm font-normal leading-8 text-center z-20 relative">
-        Presale is live now. Click button below.
+        $ANTON is live on Ston.fi
       </p>
 
       <div className="grid place-items-center">
         <Link
           type="button"
-          href="https://tonraffles.app/jetton/fairlaunch/ANTON"
+          href="https://app.ston.fi/swap?outputCurrency=EQBOzLkwg7vNQF21j5Ast-f8ktCPS9ApG0j0iMcU2f125HKC"
           target="_blank"
           className="z-20 relative mt-8 block w-fit mx-auto p-3 px-6 bg-primary rounded-2xl border-b-4 border-secondary hover:bg-primary-dark"
           //   style={{ background: "rgba(255, 255, 255, 0.1)" }}
         >
-          Get Presale
+          Access it here
         </Link>
       </div>
     </section>
